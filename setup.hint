@@ -1,0 +1,4 @@
+category: Graphics
+requires: cygwin
+sdesc: "JPEG-2000 codec library"
+ldesc: "JPEG-2000 codec library"

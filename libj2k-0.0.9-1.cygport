@@ -1,0 +1,3 @@
+DESCRIPTION="JPEG-2000 codec library"
+HOMEPAGE="http://sourceforge.net/projects/gaim-vv/"
+SRC_URI="mirror://sourceforge/gaim-vv/${P}.tar.gz"

@@ -1,0 +1,60 @@
+libj2k
+------------------------------------------
+A JPEG-2000 codec library
+
+Runtime requirements:
+  cygwin-1.5.24-1
+
+Build requirements:
+  cygwin-1.5.24-1
+  autoconf2.5-2.61-1
+  automake1.7-1.7.9-3
+  binutils-20060817-1
+  cygport-0.2.11-1
+  gawk-3.1.5-4
+  gcc-core-3.4.4-3
+  libtool1.5-1.5.23a-2
+  make-3.81-1
+  sed-4.1.5-2
+
+Canonical website:
+  http://sourceforge.net/projects/gaim-vv/
+
+Canonical download:
+  http://downloads.sourceforge.net/gaim-vv/
+
+-------------------------------------------
+
+Build instructions:
+  unpack libj2k-0.0.9-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./libj2k-0.0.9-X.cygport all
+
+This will create:
+  /usr/src/libj2k-0.0.9-X-src.tar.bz2
+  /usr/src/libj2k-0.0.9-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/bin/cygj2k-0.dll
+  /usr/include/j2k.h
+  /usr/lib/libj2k.a
+  /usr/lib/libj2k.dll.a
+  /usr/lib/libj2k.la
+  /usr/share/doc/Cygwin/libj2k-0.0.9.README
+  /usr/share/doc/libj2k-0.0.9/README
+
+------------------
+
+Port Notes:
+
+----- version 0.0.9-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
